@@ -131,6 +131,190 @@ h1.title {
   color: rgb(128, 130, 132);
 }
 
+/* ---------Chaeah -----------*/
+
+/* Universal */
+body {
+  /*max-width: 1280px;*/
+  /*width: 89%;*/
+  font-family: 'Raleway', sans-serif;
+  margin: 0 auto;
+}
+
+
+* {
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.content-box {
+  width: 85%;
+  display: flex;
+  flex-direction: row;
+
+}
+
+.content-box a figure {
+  display: flex;
+  flex-direction: column;
+}
+
+.content-figure {
+  width: 95%;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Modify image size after completing styling*/
+
+section h2 {
+  text-align: center;
+  padding-top: 65px;
+  margin: 0 0 56px 0;
+  font-size: 32px;
+}
+
+/*----------section 4 (promise)----------*/
+.section-promise {
+  padding: 93px 0;
+}
+
+
+.box-promise {
+  display: flex;
+  justify-content: space-between;
+}
+
+.img-promise {
+  margin: 0;
+}
+
+.promise-title-box {
+  padding: 26px 0 0 0
+}
+
+.promise-title-box h3 {
+  text-decoration: none;
+  margin: 0 0 12px 0;
+}
+
+/*---------section 5(review)---------*/
+
+.section-review h2 {
+  padding: 0 80px;
+}
+
+.review-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 80px;
+}
+
+.review-box-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 75%;
+}
+
+.review-box-left .img-review {
+  margin-left: 16px;
+}
+
+.review-box-left .review-quote {
+  font-size: 40px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  line-height: 1.5em;
+}
+
+.button {
+  font-size: 35px;
+  color: black;
+}
+
+.previous .button {
+  display: inline-block;
+  padding: 1px 15px;
+  margin-right: 100px;
+}
+
+
+.next .button {
+  padding: 1px 15px;
+}
+
+
+.button:hover {
+  cursor: pointer;
+}
+
+
+.review-box-right {
+  text-align: right;
+}
+
+.review-box-right img {
+  width: 75%;
+}
+
+/*
+.section-review h2 {
+  font-size: 14px;
+  text-align: left;
+  padding: 93px 0;
+  margin-bottom: 137px;
+}
+
+.box-review1 {
+  display: flex;
+  flex-direction: row;
+}
+
+
+
+.review-display-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+*/
+
+/*---------section 5 (gift)---------*/
+.section-review {
+  background-color: #F1E8DF;
+  padding: 93px 0;
+}
+
+.section-review h2 {
+  font-size: 14px;
+  text-align: left;
+}
+
+.gift-title-box {
+  padding: 26px 0 0;
+}
+
+.gift-title-box p {
+  text-align: center;
+  text-decoration: underline;
+  color: #6f6f6f;
+  font-size: 15px;
+}
+
+.img-review {
+  width: 107px;
+}
 
 /*-----------Rakesh -----------*/
 .main {
@@ -280,4 +464,55 @@ section {
   font-size: 38px;
   margin: 40px;
   font-weight: 400;
-}
+  /* Universal */
+
+  body {
+    /*max-width: 1280px;*/
+    /*width: 89%;*/
+    font-family: 'Raleway', sans-serif;
+    margin: 0 auto;
+  }
+
+  * {
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+  }
+
+  .content-box {
+    width: 85%;
+    display: flex;
+    flex-direction: row;
+
+  }
+
+  .content-box a figure {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .content-figure {
+    width: 95%;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  /* Modify image size after completing styling*/
+
+  section h2 {
+    text-align: center;
+    padding-top: 65px;
+    margin: 0 0 56px 0;
+    font-size: 32px;
+  }
+
+  ¨

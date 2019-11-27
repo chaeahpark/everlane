@@ -435,16 +435,28 @@ section {
 
 .insta-link {
   color: black;
-  width: 225px;
+  width: 270px;
   height: 41px;
   line-height: 41px;
   border: 2px solid black;
   border-width: 1px;
   text-align: center;
   text-decoration: none;
-  padding: 10px 0;
+  padding: 0;
 }
 
+.insta-text-box {
+  display: flex;
+  justify-content: center;
+}
+
+.insta-logo {
+  width: 30px;
+}
+
+.insta-text {
+  width: 120px;
+}
 
 .insta-img {
   width: 89%;

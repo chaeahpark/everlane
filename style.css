@@ -19,7 +19,14 @@
   display: flex;
   justify-content: flex-end;
   align-items: center;
+}
 
+.navbar-right > div {
+  height: 46px;
+  width: 15%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 .navbar-left {
@@ -73,7 +80,7 @@
 }
 
 .shopping-icon {
-  height: 40px;
+  height: 46px;
   width: auto;
   background-color: white;
 }
@@ -151,16 +158,13 @@ h1.title {
   background-color: white;
   margin: 0px 119px;
   padding: 40px 0px 96px;
-}
-
-.innersection2 {
   display: flex;
   justify-content: space-between;
   text-align: center;
-  width: 1285px;
+  width: 85%;
 }
 
-.section2-item>img {
+.section2-item > img {
   width: 409.6px;
   height: auto;
   padding: 0px 0px 26px;

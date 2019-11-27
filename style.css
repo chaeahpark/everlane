@@ -350,9 +350,11 @@ section h2 {
 
 /*-----------Rakesh -----------*/
 .main {
-  padding: 0;
-  margin: 0 75px;
-
+  padding-left: 119px;
+  padding-right: 119px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 section {
@@ -362,7 +364,7 @@ section {
 .irl_sec {
   text-align: center;
   border-bottom: 1px solid #d3d3d3;
-  padding: 57px 0 92px;
+  padding-bottom: 92px;
 }
 
 .irl_h2 {

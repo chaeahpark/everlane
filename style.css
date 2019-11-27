@@ -449,7 +449,11 @@ section {
 .sec8 {
   height: 32vw;
   text-align: center;
+  margin-top: 100px;
+}
 
+.sec8-div {
+  padding-top: 75px;
 }
 
 .sec8-button {

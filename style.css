@@ -1,34 +1,36 @@
 /* Helmi Menu section 1-2 */
 * {
-  font-family: graphik, Helvetica Neue, Helvetica, Arial, sans-serif;
-  padding: 0px;
-  margin: 0px;
+    padding: 0px;
+    margin: 0px;
 }
 
 .navigation-bar {
-  display: flex;
-  justify-content: space-between;
-  top: 45px;
-  height: 45px;
-  background-color: white;
-  color: rgb(255, 255, 255);
-  stroke: rgb(255, 255, 255);
-  fill: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    top: 45px; 
+    height: 46px; 
+    background-color: white;
+    color: rgb(255, 255, 255); 
+    stroke: rgb(255, 255, 255); 
+    fill: rgb(255, 255, 255);
 }
 
 .navbar-right {
-  display: flex;
-  justify-content: flex-end;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
 }
 
 .navbar-left {
-  display: flex;
-  justify-content: flex-start;
+    display: flex;
+    justify-content: flex-start;
+    padding: 14px 16px;
 }
 
 .mainlogo {
-  display: flex;
-  justify-content: center;
+    display: flex;
+    justify-content: center;
 }
 
 .menu-list {
@@ -40,12 +42,10 @@
 
 .menu-item {
   display: inline;
-}
+  }
 
 .menu-item .menu-link {
-  display: inline-block;
   color: rgb(128, 130, 132);
-  text-align: center;
   padding: 14px 16px;
   text-decoration: none;
   font: sans-serif;
@@ -60,44 +60,40 @@
 }
 
 .logo-image {
-  height: 22px;
-  width: auto;
-  margin: 14px 16px;
+    height: 22px;
+    width: auto;
+    margin: 12px 16px;
 }
 
 .narbar-button {
-  display: inline-block;
   color: rgb(128, 130, 132);
   background-color: white;
   border: none;
-  padding: 14px 16px;
+  
 }
 
-.shopping-icon {
-  height: 35px;
-  width: auto;
-  background-color: white;
-  padding: 5px;
+.shopping-icon { 
+    height: 40px;
+    width: auto;
+    background-color: white;
 }
 
-.navbar-right,
-.navbar-left,
-.mainlogo {
-  width: 33%;
+.navbar-right, .navbar-left, .mainlogo {
+    width: 33%;
 }
 
 
 .section1 {
-  background-image: url("media/Hero-image1.jpg");
-  height: 695px;
-  width: auto;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  margin: 0px;
-  padding: 0;
-
+    background-image:url("media/Hero-image1.jpg");
+    height: 695px;
+    width: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin: 0px;
+    padding: 0;
+    
 }
 
 .hero-text {
@@ -115,6 +111,7 @@
   border: none;
   padding: 10px 26px;
   font-size: 10px;
+  width: fit-content;
 }
 
 h1.title {
@@ -133,6 +130,18 @@ h1.title {
   font-size: 13px;
   color: rgb(76, 76, 75);
   ;
+}
+
+.tagline {
+    margin: 25px 0px 30px;
+}
+
+.note {
+    position: absolute;
+    bottom: 25px;
+    left: 40px;
+    font-size: 13px;
+    color: rgb(76, 76, 75);;
 }
 
 .section2 {

@@ -21,7 +21,7 @@
   align-items: center;
 }
 
-.navbar-right > div {
+.navbar-right>div {
   height: 46px;
   width: 15%;
   display: flex;
@@ -164,7 +164,7 @@ h1.title {
   width: 85%;
 }
 
-.section2-item > img {
+.section2-item>img {
   width: 409.6px;
   height: auto;
   padding: 0px 0px 26px;

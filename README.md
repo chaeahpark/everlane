@@ -1,2 +1,2 @@
 # everlane
-the assignment
+the assignment - cloning an existing website
